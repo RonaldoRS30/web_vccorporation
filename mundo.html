@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hola Mundo</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', Arial, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #181818, #101827, #ff085c);
+      color: white;
+      overflow: hidden;
+    }
+
+    .card {
+      padding: 60px 80px;
+      border-radius: 28px;
+      background: rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(18px);
+      box-shadow: 0 25px 80px rgba(0, 0, 0, 0.35);
+      text-align: center;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      animation: subir 1s ease;
+    }
+
+    h1 {
+      font-size: clamp(48px, 8vw, 110px);
+      font-weight: 800;
+      letter-spacing: -4px;
+      background: linear-gradient(90deg, #ffffff, #05baee, #ff085c);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: brillo 4s infinite linear;
+    }
+
+    p {
+      margin-top: 18px;
+      font-size: 20px;
+      opacity: 0.85;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 35px;
+      padding: 14px 28px;
+      border-radius: 999px;
+      background: white;
+      color: #181818;
+      text-decoration: none;
+      font-weight: 700;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 30px rgba(255, 255, 255, 0.25);
+    }
+
+    @keyframes subir {
+      from {
+        opacity: 0;
+        transform: translateY(40px) scale(0.96);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+
+    @keyframes brillo {
+      0% {
+        filter: brightness(1);
+      }
+      50% {
+        filter: brightness(1.5);
+      }
+      100% {
+        filter: brightness(1);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <h1>Hola Mundo</h1>
+    <p>Una primera página simple, moderna y elegante.</p>
+    <a href="#" class="btn">Empezar</a>
+  </div>
+</body>
+</html>

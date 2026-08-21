@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* CSS Document */
+
+  body {
+    background-color: #FFFFFF;
+    color: #005100;
+    font-family: Arial;
+    font-size: 12px;
+	margin-left: 0;
+	margin-top: 0;
+  }
+  
+  
+  /*input, select, textarea {border: #7f9db9 1px solid;}*/
+  
+  input.button {
+    font-family: Arial;
+	font-size:12px;
+	background-color:#006600;
+	border-style:solid; 
+	border-width:1px; 
+	border-color:#DDD; 
+	color:#FFFFFF; 
+	padding:1px 10px;	
+	padding-bottom:2px;
+	/*width:105px;	*/
+	}
+
+  .bd {
+    background-color: #FFFFFF;
+    color: #005100;
+    font-family: Arial;
+    font-size: 12px;
+  }
+  
+  .tbl {
+    background-color:#EEEEEE;
+  }
+  
+  a:link { 
+    color: #FF0000;
+    font-family: Arial;
+    font-size: 12px;
+  }
+  
+  a:active { 
+    color: #0000FF;
+    font-family: Arial;
+    font-size: 12px;
+  }
+  
+  a:visited { 
+    color: #800080;
+    font-family: Arial;
+    font-size: 12px;
+  }
+  
+  .hr {
+    background-color: #A4D1FF; 
+    color: #000000;
+	font-size: 12px;
+  }
+  
+  a.hr:link {
+    color: #000000;
+    font-family: Arial;
+    font-size: 12px;
+  }
+  
+  a.hr:active {
+    color: #000000;
+    font-family: Arial;
+    font-size: 12px;
+  }
+  
+  a.hr:visited {
+    color: #000000;
+    font-family: Arial;
+    font-size: 12px;
+  }
+  
+  .dr {
+    background-color: #FFFFFF;
+    color: #000000;
+  }
+  
+  .sr {
+    background-color: #EEEEEE;
+    color: #000000;
+  }
+  
+.style1 {color: #9DACBF}
+
+.style3 {
+	color: #000000;
+}
+
+.title {
+	background-color:#004080;
+	padding-left:5px;
+	font-size:13px;
+	line-height:25px;
+	font-weight:bold; 
+	color:#FFFFFF;	
+}
+
+.subtitle {
+	background-color:#F1CF5A;
+	height:5px;
+}
+
+.foot {
+    background-color:#F2F2F2;
+	padding-left:5px; 
+    font-size: 12px;
+	color: #FFFFFF;
+ }
+ 
+ul {
+	list-style: none;
+	margin: 0;
+	margin-right:2px;
+	padding: 0;
+	}
+
+img {
+    border: none;
+}
+
+#menu6 {
+	width: 200px;
+	margin: 0px;
+	}
+#menu6 li a {
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+	text-decoration: none;
+  	height: 24px;
+	margin:2px;
+	padding:2px 2px;
+	font-size: 11px;
+	}	
+	
+
+#menu6 li a:link, #menu6 li a:visited {
+	color: #000000;
+	background:#F2F2F2;
+	font-style:normal;
+	display: block;
+	}
+
+#menu6 li a.active {
+	color:#FFFFFF;
+	background:#34853A;
+	}
+	
+#menu6 li a:hover {
+	color:#000000;
+	background:#A4D1FF;
+	}
+	
+.TablaDatos th {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	background-color:#A4D1FF;
+	padding-top:2px;
+	padding-bottom: 2px;
+	border-width:1px;
+	border-style:solid;
+	border-left-color:#80BFFF;
+	border-right-color:#80BFFF;	
+	border-top-color:#80BFFF;
+	border-bottom-color:#80BFFF;
+	color:#336600;
+	padding-left:2px;
+	padding-right:2px;
+	}
+	
+.TablaDatos td {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	border-style:solid;
+	border-width:1px;
+	border-bottom-style:none;
+	border-top-style:none;
+	border-left-color:#CCCCCC;
+	border-right-color:#CCCCCC;
+	padding-left:3px;
+	padding-right:3px;
+	color:#333333;
+	padding-top:3px;
+	padding-bottom:3px;
+}	
+
+
+/*****************FVALIDATOR*****************/
+
+.fValidator-form fieldset {
+border: 1px solid #ccc;
+padding: 10px;
+}
+
+.fValidator-form legend {
+padding: 0 5px;
+}
+
+.fValidator-form input, select {
+font-family: Arial;
+color: #666;
+}
+.fValidator-form input {padding: 2px;}
+
+.full {width: 100%;}
+.half {width: 50%; vertical-align: top;}
+
+.fValidator-msg {
+background-color: #c00;
+font-size: 85%;
+color: #fff;
+padding: 0px;
+}
+

@@ -1,0 +1,44 @@
+
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# This domain inherits the “PHP” package.
+# php -- END cPanel-generated handler, do not edit
+
+#Redirections
+RewriteEngine On
+Redirect 301 /redes.php https://vc-corporation.com/redes-informaticas.php
+#RewriteCond %{HTTP_HOST} www.vc-corporation.com
+#RewriteRule (.*) https://vc-corporation.com/$1 [R=301,L]
+Redirect 301 /en/main.php https://vc-corporation.com/main.php
+Redirect 301 /en/electrica.php https://vc-corporation.com/electrical.php
+Redirect 301 /automati https://vc-corporation.com/automation.php
+Redirect 301 /en/capacitacion.php https://vc-corporation.com/training.php
+Redirect 301 /en/mantenimiento.php https://vc-corporation.com/maintenance.php
+Redirect 301 /en/automatizacion.php https://vc-corporation.com/automation.php
+Redirect 301 /en/productos.php https://vc-corporation.com/products.php
+Redirect 301 /en/proyectos.php https://vc-corporation.com/projects.php
+Redirect 301 /en/trabajeenvc.php https://vc-corporation.com/workforus.php
+#Redirect 301 /index.php https://vc-corporation.com/
+# EN Redirections
+Redirect 301  /en/automation.php https://vc-corporation.com/automation.php
+Redirect 301  /en/contact.php https://vc-corporation.com/contact.php
+Redirect 301  /en/electrical.php https://vc-corporation.com/electrical.php
+Redirect 301  /en/index.php https://vc-corporation.com/main.php
+Redirect 301  /en/industrial.php https://vc-corporation.com/industry.php
+Redirect 301  /en/maintenance.php https://vc-corporation.com/maintenance.php
+Redirect 301  /en/networking.php https://vc-corporation.com/networking.php
+Redirect 301  /en/products.php https://vc-corporation.com/products.php
+Redirect 301  /en/projects.php https://vc-corporation.com/projects.php
+Redirect 301  /en/training.php https://vc-corporation.com/training.php
+Redirect 301  /en/workforus.php https://vc-corporation.com/workforus.php
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
+RewriteRule ^ https://%1%{REQUEST_URI} [L,NE,R=301]
+
+
+
+</IfModule>

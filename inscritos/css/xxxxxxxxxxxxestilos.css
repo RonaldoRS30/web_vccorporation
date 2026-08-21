@@ -1,0 +1,626 @@
+/* DEFAULTS
+----------------------------------------------------------*/
+
+body   
+{
+    background: #e3d8b9;
+    font-size: .80em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+}
+
+a:link, a:visited
+{
+    color: #034af3;
+}
+
+a:hover
+{
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #034af3;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+
+input{
+	font-size: 10px;
+}
+
+textarea {
+	font-size: 10px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+select {
+	font-size: 10px;
+	}
+}
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0px;
+}
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+
+.page_top{
+	width: 960px;
+    background-color: #ffd451;
+    margin: 0px auto 0px auto;
+    border: 1px solid #d4caad;
+}
+
+.page
+{
+    width: 960px;
+    background-color: #fff;
+    margin: 20px auto 0px auto;
+    border: 1px solid #c0a57e;
+}
+
+.header
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background-color: #99BCBF;
+	 background-image: url(../images/nuevo/bg_head_01.png);
+    width: 100%;
+}
+
+.header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color:#2f4f4f;/* #f9f9f9;*/
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+    
+}
+
+.main
+{
+    padding: 0px 12px;
+    margin: 12px 8px 8px 8px;
+    min-height: 420px;
+}
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+}
+
+.footer
+{
+    color: #4e5766;
+    padding: 8px 0px 0px 0px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: normal;
+}
+
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+div.hideSkiplink
+{
+    background-color:#ffffff;/*#3a4f63;*/
+    width:100%;
+}
+
+div.menu
+{
+    padding: 4px 0px 4px 8px;
+}
+
+div.menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+    background-color: #465c71;
+    border: 1px #4e667d solid;
+    color: #dde4ec;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+div.menu ul li a:hover
+{
+    background-color: #bfcbd6;
+    color: #465c71;
+    text-decoration: none;
+}
+
+div.menu ul li a:active
+{
+    background-color: #465c71;
+    color: #cfdbe6;
+    text-decoration: none;
+}
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input.textEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+div.accountInfo
+{
+    width: 42%;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    display: block;
+    float: left;
+    text-align: left;
+    /*width: auto;*/
+    
+    width: 80%;
+}
+
+.headCab{
+	 width: 100%;
+	 display: block;
+	 background-color: #99BCBF;
+	 background-image: url(../images/nuevo/bg_head_01.png);
+}
+
+.loginDisplay
+{
+    font-size: 1.1em;
+    display: block;
+    text-align: right;
+    padding: 10px;
+    color: White;
+    border: solid 0px #000000;
+}
+
+.loginDisplay a:link
+{
+    color: white;
+}
+
+.loginDisplay a:visited
+{
+    color: white;
+}
+
+.loginDisplay a:hover
+{
+    color: white;
+}
+
+.failureNotification
+{
+    font-size: 1.2em;
+    color: Red;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.submitButton
+{
+    text-align: right;
+    padding-right: 10px;
+}
+.tabla_main{
+	width: 99%; margin: 0 auto; border-collapse: collapse; border: 1px solid #f0f0f0;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: .76em;
+}
+
+.tabla_main_0{
+	width: 99%; margin: 0 auto; border-collapse: collapse; padding: 0px 0px 0px 0px; 
+	font-size: 10px;
+}
+
+.tabla_main_10{
+	width: 100%; margin: 0 auto; border-collapse: collapse; padding: 0px 0px 0px 0px; 
+	font-size: 10px;
+}
+
+.tabla_main_sw{
+	border-collapse: collapse; padding: 0px 0px 0px 0px; 
+	font-size: 10px;
+}
+
+.tabla_fmr_busca{
+	border-collapse: collapse; padding: 0px 0px 0px 0px; text-align: left; 
+	font-size: 10px;
+}
+
+
+
+.tabla_main_1{
+	width: 99%; margin: 0 auto; border-collapse: collapse; border: 1px solid #f0f0f0;
+	font-size: 10px; background-color: #f5f5f5; padding-top: 5px; padding-bottom:5px;
+	color: #000000;
+}
+
+
+.tabla_main_60{
+	width: 60%; margin: 0 auto; border-collapse: collapse; padding: 0px 0px 0px 0px;
+	font-size: 10px; 
+}
+
+.jclock{
+	font-size: 10px; 
+	/*color:maroon; */
+	font-weight: bold;
+	float: left;
+}
+.gridgeneral{ 
+	font-size: 10px; width: 99%;
+}
+.cls_hidden{
+    	visibility: hidden;
+ }
+ .hiddencol{display:none;    }
+ .pnlVisita{
+ 	width:100%;border: 1px solid #f0f0f0;
+ 	font-size: 10px;
+ }
+ .grid_vacio{
+ 	width: 100%; font-weight: bold; text-align: center; font-size: 12px;
+ }
+ 
+ .espacio_15{
+ 	width: 15px;
+ }
+ 
+ .cl_obliga{
+ 	color: #b22222; font-weight: bold;
+ }
+ .cl_obliga_0{
+ 	color: #b22222;
+ }
+ .negrita{
+ 	font-weight: bold;
+ }
+ .titulo_detalle{
+ 	background-color: #778899; color:#ffffff; height: 20px; vertical-align: middle;
+ 	font-weight: bold;
+ }
+ .titulo_visita{
+ 	color:#2f4f4f; font-size:14px; text-align: center;font-weight: bold;
+ }
+ .titulo_forms{
+ 	color:#2f4f4f; font-size:12px; font-weight: bold;
+ }
+ .fechahoy{
+ 	font-size: 14px; color:maroon; font-weight: bold;
+ }
+ 
+.HeaderStyle{
+	background: #fddc75;	color: #886634; 	font-weight: bold;
+	height: 21px;border: solid 1px #D0D0D0; text-align: center;
+}
+.RowStyle{
+	height: 20px;
+ 	background-color: #fcf5df;
+}
+.AlternateStyle_pendiente{
+ background-color: #f3f3f3;
+}
+.AlternateStyle{
+	background-color: #fefcf2;
+}
+
+/*  ------------------------------------------------ */
+/* ----------------------------------------------------------------------------------------------------------------*//* ---------->>> global settings needed for thickbox <<<-----------------------------------------------------------*//* ----------------------------------------------------------------------------------------------------------------*/*{padding: 0; margin: 0;}/* ----------------------------------------------------------------------------------------------------------------*//* ---------->>> thickbox specific link and font settings <<<------------------------------------------------------*//* ----------------------------------------------------------------------------------------------------------------*/#TB_window {  font: 12px Arial, Helvetica, sans-serif;  color: #333333;}#TB_secondLine {  font: 10px Arial, Helvetica, sans-serif;  color:#666666;}#TB_window a:link {color: #666666;}#TB_window a:visited {color: #666666;}#TB_window a:hover {color: #000;}#TB_window a:active {color: #666666;}#TB_window a:focus{color: #666666;}/* ----------------------------------------------------------------------------------------------------------------*//* ---------->>> thickbox settings <<<-----------------------------------------------------------------------------*//* ----------------------------------------------------------------------------------------------------------------*/#TB_overlay {  position: fixed;  z-index:100;  top: 0px;  left: 0px;  height:100%;  width:100%;}.TB_overlayMacFFBGHack {background: url(macFFBgHack.png) repeat;}.TB_overlayBG {  background-color:#000;  filter:alpha(opacity=75);  -moz-opacity: 0.75;  opacity: 0.75;}* html #TB_overlay { /* ie6 hack */     position: absolute;     height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');}#TB_window {  position: fixed;  background: #ffffff;  z-index: 102;  color:#000000;  display:none;  border: 4px solid #525252;  text-align:left;  top:50%;  left:50%;}* html #TB_window { /* ie6 hack */position: absolute;margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');}
+#TB_window img#TB_Image {  display:block;  margin: 15px 0 0 15px;  border-right: 1px solid #ccc;  border-bottom: 1px solid #ccc;  border-top: 1px solid #666;  border-left: 1px solid #666;}
+#TB_caption{  height:25px;  padding:7px 30px 10px 25px;  float:left;}
+#TB_closeWindow{  height:25px;  padding:11px 25px 10px 0;  float:right;}
+#TB_closeAjaxWindow{  padding:7px 10px 5px 0;  margin-bottom:1px;  text-align:right;  float:right;}
+#TB_ajaxWindowTitle{  float:left;  padding:7px 0 5px 10px;  margin-bottom:1px;}
+#TB_title{  background-color:#e8e8e8;  height:27px;}
+#TB_ajaxContent{  clear:both;  padding:2px 15px 15px 15px;  overflow:auto;  text-align:left;  line-height:1.4em;}
+#TB_ajaxContent.TB_modal{  padding:15px;}
+#TB_ajaxContent p{  padding:5px 0px 5px 0px;}
+#TB_load{  position: fixed;  display:none;  height:13px;  width:208px;  z-index:103;  top: 50%;  left: 50%;  margin: -6px 0 0 -104px; /* -height/2 0 0 -width/2 */}* html #TB_load { /* ie6 hack */position: absolute;margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');}
+#TB_HideSelect{  z-index:99;  position:fixed;  top: 0;  left: 0;  background-color:#fff;  border:none;  filter:alpha(opacity=0);  -moz-opacity: 0;  opacity: 0;  height:100%;  width:100%;}* html #TB_HideSelect { /* ie6 hack */     position: absolute;     height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');}
+#TB_iframeContent{  clear:both;  border:none;  margin-bottom:-1px;  margin-top:1px;  _margin-bottom:1px;}
+
+
+
+
+/*** ESSENTIAL STYLES ***/
+.sf-menu, .sf-menu * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+}
+.sf-menu {
+	line-height:	1.0;
+}
+.sf-menu ul {
+	position:		absolute;
+	top:			-999em;
+	width:			10em; /* left offset of submenus need to match (see below) */
+}
+.sf-menu ul li {
+	width:			100%;
+}
+.sf-menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu li {
+	float:			left;
+	position:		relative;
+}
+.sf-menu a {
+	display:		block;
+	position:		relative;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left:			0;
+	top:			2.5em; /* match top ul list item height */
+	z-index:		99;
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+
+/*** DEMO SKIN ***/
+.sf-menu {
+	float: none;
+	margin-bottom:	1em;
+}
+.sf-menu a {
+	border-left:	1px solid #bfa47d;
+	border-top:		1px solid #bfa47d;
+	border-right:  1px solid #bfa47d;
+	padding: 		.75em 1em;
+	text-decoration:none;
+   font-size: 12px;
+}
+.sf-menu a, .sf-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
+	color:			#000;
+}
+.sf-menu li {
+	background:		#f7ebdc;/*#BDD2FF;*/
+}
+.sf-menu li li {
+	background:		#f7ebdc;/*#AABDE6;*/
+	border-top:   0px solid #bfa47d; 
+   border-bottom:   1px solid #bfa47d; 
+}
+.sf-menu li li li {
+	background:		#f7ebdc;/*#9AAEDB;*/
+}
+.sf-menu li:hover, .sf-menu li.sfHover,
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+	background:		#FFFFFF;/*#CFDEFF;*/
+	outline:		0;
+}
+
+/*** arrows **/
+.sf-menu a.sf-with-ul {
+	padding-right: 	2.25em;
+	min-width:		1px; /* trigger IE7 hasLayout so spans position accurately */
+}
+.sf-sub-indicator {
+	position:		absolute;
+	display:		block;
+	right:			.75em;
+	top:			1.05em; /* IE6 only */
+	width:			10px;
+	height:			10px;
+	text-indent: 	-999em;
+	overflow:		hidden;
+	background:		url('../images/arrows-ffffff.png') no-repeat -10px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
+}
+a > .sf-sub-indicator {  /* give all except IE6 the correct values */
+	top:			.8em;
+	background-position: 0 -100px; /* use translucent arrow for modern browsers*/
+}
+/* apply hovers to modern browsers */
+a:focus > .sf-sub-indicator,
+a:hover > .sf-sub-indicator,
+a:active > .sf-sub-indicator,
+li:hover > a > .sf-sub-indicator,
+li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px -100px; /* arrow hovers for modern browsers*/
+}
+
+/* point right for anchors in subs */
+.sf-menu ul .sf-sub-indicator { background-position:  -10px 0; }
+.sf-menu ul a > .sf-sub-indicator { background-position:  0 0; }
+/* apply hovers to modern browsers */
+.sf-menu ul a:focus > .sf-sub-indicator,
+.sf-menu ul a:hover > .sf-sub-indicator,
+.sf-menu ul a:active > .sf-sub-indicator,
+.sf-menu ul li:hover > a > .sf-sub-indicator,
+.sf-menu ul li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px 0; /* arrow hovers for modern browsers*/
+}
+
+/*** shadows for all but IE6 ***/
+.sf-shadow ul {
+	background:	url('../images/shadow.png') no-repeat bottom right;
+	padding: 0 8px 9px 0;
+	-moz-border-radius-bottomleft: 17px;
+	-moz-border-radius-topright: 17px;
+	-webkit-border-top-right-radius: 17px;
+	-webkit-border-bottom-left-radius: 17px;
+}
+.sf-shadow ul.sf-shadow-off {
+	background: transparent;
+}
+.main_login{
+	margin:0px; 
+	background-color:#324732;
+}
+.tabla_login{
+	border:#333333; 
+	 border-style: double;
+	padding: 0px 0px 0px 0px; 
+
+	/*border-color:Red; */
+	/*border-collapse:collapse;*/
+ 
+	width: 451px;
+}
+.prueba{
+	border: 1px dotted #bbb;
+padding: .4em;
+}
+.pad_cel_grid{
+	padding: .4em;
+	color: #886634;
+	
+}
+.titulo_opcion{
+	border-bottom: solid 1px #00696a;
+}
+.btn_buscar{
+   background-image:url(../images/bg_bottom.gif);
+	border-style:solid; 
+	border-width: 1px; 
+	font-family:verdana,arial,helvetica,sans-serif;
+	font-size:10px;
+	color:#FFFFFF; 
+	vertical-align:bottom;
+	border-color:#4A6C4A;
+	height:22px;
+}
+.inputlogin{
+	background-color:#F0F4F0;border: #89AB89 1px solid; font-size: 22px; width: 98%;
+}

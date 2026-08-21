@@ -1,0 +1,345 @@
+body {
+  color: #474747;
+  height: auto;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-weight: normal;
+  padding-top: 20px;
+  text-align: center;
+}
+
+h2 {
+  padding-top: 20px;
+  text-align: center;
+}
+
+p {
+  overflow: hidden;
+}
+
+.container_12,
+.container_16,
+.container_24 {
+  margin-bottom: 20px;
+}
+
+.container_12 {
+
+}
+
+#Proyectos , #Sistemas, #Manuales, #Cursos, #Colecciones, #MP3, #Plantillas, #Videos , #Articulos
+{
+  display: inline-block;
+  width: 140px;
+  height: 100px;
+  margin:0px auto 0px;
+}
+
+#Proyectos{
+background: url("../inicio/01.jpg");
+}
+#Sistemas{
+background: url("../inicio/02.jpg") ;
+}
+#Manuales{
+background: url("../inicio/03.jpg");
+}
+
+
+#Cursos{
+background: url("../inicio/04.jpg");
+}
+#Colecciones{
+background: url("../inicio/05.jpg");
+}
+#MP3{
+background: url("../inicio/06.jpg") ;
+}
+
+
+#Plantillas{
+background: url("../inicio/07.jpg");
+}
+#Videos{
+background: url("../inicio/08.jpg") ;
+}
+#Articulos{
+background: url("../inicio/09.jpg") ;
+}
+
+
+
+#Proyectos:hover
+{ 
+  background-position: 0 0;
+}
+#Sistemas:hover
+{ 
+  background-position: 0px 0;
+}
+#Manuales:hover
+{ 
+  background-position: 0px 0;
+}
+
+
+
+#Cursos:hover
+{ 
+  background-position: 0px 0;
+}
+#Colecciones:hover
+{ 
+  background-position: 0px 0;
+}
+#MP3:hover
+{ 
+  background-position: 0px 0;
+}
+
+
+#Plantillas:hover
+{ 
+  background-position: 0px 0;
+}
+#Videos:hover
+{ 
+  background-position: 0px 0;
+}
+#Articulos:hover
+{ 
+  background-position: 0px 0;
+}
+
+/*CONTENT*/
+#sidebar{width:140px; margin-right:0px !important; margin-left:5px;}
+
+#sidebar ul {  
+	list-style-type: none; text-align: justify;
+	border-left: #e6d8c7 1px solid;
+	border-top: #e6d8c7 1px solid;
+	border-bottom: #e6d8c7 1px solid;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background:#F6E8D8;
+	-webkit-box-shadow: #DDD 0px 3px 5px;
+	-moz-box-shadow: #DDD 0px 3px 5px;
+	box-shadow: #DDD 0px 3px 5px;
+
+}  
+
+#sidebar li {  
+margin-left:0 !important;
+}  
+
+#sidebar li a {  
+color: #993300;  
+text-shadow:1px 1px 0 white;  
+text-transform: uppercase;
+background: url("../img/ul_sep.png") repeat-x scroll center bottom transparent;
+display:block;
+padding: 10px 10px 11px 25px;
+} 
+
+#sidebar li a:hover {  
+color: #666;  
+background:#FFFFFF;
+} 
+
+.selected{background:#ffffff url('../img/agro_icon.png') no-repeat 10px 10px; font-weight:normal; text-indent:10px;}
+
+.selected a{color:#333333 !important; }
+.selected a:hover{text-decoration:underline;}
+
+.sidebar{font-size:10px; text-transform:uppercase; letter-spacing:2px; margin: 0  0 20px 40px; font-weight:bold; font-style:normal;}
+
+#links ul {  
+list-style-type: none; text-align:center;
+}  
+
+#links li {  
+margin:20px;  
+width: 150px;  
+float:left;
+display:inline-block;
+}  
+/* COLOR DEL TEXTO ANTES DEL MOUSE #c65542*/
+#links li a {  
+color: #999999 ;  
+display: block;  
+padding: 2px;  
+text-decoration: none;  
+} 
+
+* html #links li a {  /* hacer que el efecto funcione en IE */  
+width: 140px;  
+}  
+/* COLOR DEL TEXTO CON EL MOUSE #c65542*/
+#links li a:hover {  
+color: #1D6A86 ;  
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-webkit-box-shadow: #999 0px 1px 3px;
+-moz-box-shadow: #999 0px 1px 3px;
+box-shadow: #999 0px 1px 3px;
+background: #FFFFFF;
+background: -webkit-gradient(linear, 0 0, 0 bottom, from(#FFFFFF), to(#FAFAFA));
+background: -webkit-linear-gradient(#FFFFFF, #FAFAFA);
+background: -moz-linear-gradient(#FFFFFF, #FAFAFA);
+background: -ms-linear-gradient(#FFFFFF, #FAFAFA);
+background: -o-linear-gradient(#FFFFFF, #FAFAFA);
+background: linear-gradient(#FFFFFF, #FAFAFA);
+-pie-background: linear-gradient(#FFFFFF, #FAFAFA);
+}  
+
+#links a em {  
+color: #333;  
+display: block;  
+line-height: 130%; 
+font-family: Cambria, serif;
+font-size: 12px;
+font-style: italic;
+font-weight: normal;
+text-transform: normal;
+letter-spacing: normal;
+}  
+
+/*BUSCADOR*/
+
+#searchBoxOne {
+float: right;
+    margin: 0 10px 20px 0;
+    padding: 0.2em;
+    position: relative;
+    width: 100%;}
+
+#searchBoxOne p{font-size:16px; margin:10px 0;}
+
+#searchBoxOne input.search {
+    border: 1px solid #B8B8B8;
+    color: #999999;
+    padding: 6px;
+	min-width:57%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#searchBoxOne label{font-weight:normal; font-style:normal; margin-right:15px; font-size:16px; font-weight:normal; color:#785201;}
+
+#searchBoxOne input.submit {
+    background-color: #d3e79b;
+    background-image: -moz-linear-gradient(center top , #d3e79b, #9dc954);
+    border: 1px solid #9dc954;
+    border-radius: 4px 4px 4px 4px;
+    color: #5d7731;
+    height: 30px;
+	vertical-align:bottom;
+}
+
+#searchBoxOne input.submit:hover,
+#searchBoxOne input.submit.hover {
+	text-decoration:underline;
+}
+
+/*Termina BUSCADOR*/
+
+#tabs-2 ul, #tabs-3 ul{margin-bottom:20px;}
+#tabs-3 ul{list-style-image:url('../img/pdf_icon.png');}
+
+/**/
+#minag{padding: 0.3em;position: relative;background:#EEEEEE;}
+#minag ul {float: right;margin: 6px 20px; list-style-type:none;}
+#minag ul li{display:inline-block; float:left;}
+#minag ul li a{color:#D25C4A; text-decoration:underline;}
+#minag ul li a:hover{text-decoration:none;}
+
+/*FOOTER*/
+#footer{float: right;
+    margin:10px 10px 0 0;
+    padding: 0.2em;
+    position: relative;
+    width: 770px;}
+#footer p{ text-align:center;
+}
+
+/*ADS*/
+#ads{float: right;
+    margin: 10px 10px 0 0;
+    padding: 0.2em;
+    position: relative;
+    width: 770px;
+	background:#C39E7B;
+	border: 1px solid #B89472;
+    color: #555;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	}
+	
+#ads ul {
+    float: left;
+    list-style-type: none;
+    margin: 6px 70px;
+}
+
+#ads ul li {
+    display: inline-block;
+    float: left;
+}
+	
+
+
+#peru, #sunarp, #ongei, #codesi, #vuse
+{
+  display: block;
+  width: 90px;
+  height: 37px;
+  border:1px solid #CCA989;
+}
+
+#peru{background: url("../img/peru.png") no-repeat 0 0;}
+
+#sunarp{background: url("../img/sunarp.png") no-repeat 0 0;}
+
+#ongei{background: url("../img/ongei.png") no-repeat 0 0;}
+
+#codesi{background: url("../img/codesi.png") no-repeat 0 0;}
+
+#vuse{background: url("../img/vuse.png") no-repeat 0 0;}
+
+#peru:hover, #sunarp:hover, #ongei:hover, #codesi:hover, #vuse:hover
+{ 
+	-webkit-box-shadow: #666 0px 1px 3px;
+	-moz-box-shadow: #666 0px 1px 3px;
+	box-shadow: #666 0px 1px 3px;
+	background-position:0 -37px;
+	border:1px solid #B38C68;
+}
+
+#peru span, #sunarp span, #ongei span, #codesi span, #vuse span
+{
+  position: absolute;
+  top: -999em;
+}
+
+
+
+
+

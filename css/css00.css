@@ -1,0 +1,116 @@
+body { margin-top: 0pt;padding-top: 00pt;
+
+
+}
+img.img_ssb {
+  padding: 2px; margin:2px 2px  2px 2px ; 
+	border: 1px solid #D1D1D1;
+}
+.title {
+	color: #000000;
+	font-size: 18pt;
+	font-family: Tahoma;	
+}
+.subtitle {
+	color: #002040;
+	font-size: 16pt;
+	font-family: Tahoma;	
+}
+.titleline {
+	color:#868686;	
+	font-family:Georgia, tahoma; 
+	font-size:10px;
+	font-weight:bold;  
+	line-height:17px;	
+}
+.textline {
+		color:#868686;
+		line-height:15px;			
+		font-family:Georgia, tahoma; 
+		font-size:9px;
+}
+
+.titleline7 {
+	color: #333333;
+	font-size: 7pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.textline7 {
+	color: #996600;
+	font-size: 7pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.textline8 {
+	color: #999999;
+	font-size: 7pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.textline10 {
+	color: #996600;
+	font-size: 12px;
+	font-family: Georgia, Times New Roman, Times, serif;
+}
+.titlecelda {
+    padding: 1px; 
+	color: #222222;
+	font-family:Georgia,, Times New Roman, Times, serif;
+	font-size:10px;
+    background-color :#F5F5F5;
+    border-left:outset #DDDDDD 1pt;
+    border-top:outset #DDDDDD  1pt;
+    border-right:solid #DDDDDD  1pt;	
+    border-bottom:solid #DDDDDD  1pt;	
+	padding-left: 5px;
+	}
+.textini {
+		font-family:Georgia, tahoma; 
+		font-size:11px;
+		line-height:17px;
+		color:#868686;		
+}
+.celda {
+   border-left:outset #005577 0.5pt;
+   border-top:outset #005577 0.50pt;
+   border-right:solid #005577 0.5pt;
+}
+
+.navenlace{ 
+margin: 0px; 
+padding: 0px; 
+border: 0px solid #404040; 
+font-weight: normal; 
+} 
+.navenlace A{ 
+color: #202020; 
+text-decoration: none; 
+display: block; 
+} 
+
+.navenlace A:hover{ 
+background-color: #202020; 
+color: :#404040; 
+} 
+
+select{ 
+     border:1px solid #996600;
+     width: 230px;
+     font-family: Arial, Helvetica, sans-serif; font-size:10px;
+	 color:#1C7CB7; background-color:#000000; 
+ 
+} 
+option {font-size:10px; padding:2px 2px 2px 2px; border: 1px solid #00CCFF;background-color:#000000;} 
+
+
+.inputAA {background-color:#333333; color: #ffffff; border: 1px solid #666666; size: 9px; font: 10px Verdana, Arial, Helvetica, sans-serif;}
+
+.buttonA {font: 10px Verdana, Arial, Helvetica, sans-serif; background-color: #000000; color: #ffffff;}
+
+.select2{ 
+     width: 125px; 
+     border-right: red 2px solid;
+     border-top: red 2px solid; 
+     border-left: red 2px solid; 
+     border-bottom: red 2px solid; 
+     background-color: #ffffff;
+} 
