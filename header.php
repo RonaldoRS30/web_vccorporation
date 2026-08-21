@@ -13,7 +13,7 @@
                            <div class="logo col-sm-6" >  
                            </div>
                            <div class="logo col-sm-4" >
-                                  
+                                <?php include(dirname(__FILE__) . '/iso_certs_header.php'); ?>
                            </div>                            
                     </div>
                 </div>
