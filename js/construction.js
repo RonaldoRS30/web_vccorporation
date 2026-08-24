@@ -77,21 +77,6 @@ $(document).ready(function(){
         });
     
     
-        if (!$('.isoCertSlider').hasClass('owl-loaded')) {
-            $('.isoCertSlider').owlCarousel({
-                loop:true,
-                margin:0,
-                nav:true,
-                items:1,
-                dots:false,
-                autoplay:true,
-                autoplayTimeout:3200,
-                autoplayHoverPause:true,
-                smartSpeed:650,
-                navText: [ '<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>' ]
-            });
-        }
-
         $('.homologacionesSlider').owlCarousel({
             loop:true,
             margin:16,

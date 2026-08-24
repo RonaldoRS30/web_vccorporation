@@ -2979,56 +2979,51 @@ header .social_nav ul li:last-child {
   margin-right: 0px;
 }
 
-.isoCertsWrap {
-  max-width: 170px;
-  margin-left: auto;
-  padding-top: 2px;
+header .iso-header-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 130px;
 }
-.isoCertsWrap .isoCertSlider .item {
-  text-align: center;
-  margin: 0;
+header .iso-header-row > [class*="col-"] {
+  float: none;
+}
+header .iso-certs-col {
+  float: none;
+}
+.isoCertsWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  padding: 18px 24px 8px 0;
 }
 .isoCertsWrap .iso-cert-open {
-  display: inline-block;
+  display: block;
   cursor: pointer;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  line-height: 0;
 }
 .isoCertsWrap .iso-cert-open img {
-  width: auto;
-  height: 92px;
-  max-width: 140px;
-  display: inline-block;
-  vertical-align: middle;
-  opacity: 0.96;
-  -webkit-transition: transform 250ms ease, opacity 250ms ease;
-  transition: transform 250ms ease, opacity 250ms ease;
+  width: 108px;
+  height: 108px;
+  object-fit: contain;
+  display: block;
+  opacity: 1;
 }
 .isoCertsWrap .iso-cert-open:hover img {
-  opacity: 1;
-  -webkit-transform: scale(1.06);
-  transform: scale(1.06);
-}
-.isoCertsWrap .isoCertSlider .owl-controls {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  margin-top: -14px;
-}
-.isoCertsWrap .isoCertSlider .owl-controls .owl-nav .owl-prev,
-.isoCertsWrap .isoCertSlider .owl-controls .owl-nav .owl-next {
-  position: absolute;
-  color: #316262;
-  font-size: 22px;
-  line-height: 1;
-}
-.isoCertsWrap .isoCertSlider .owl-controls .owl-nav .owl-prev {
-  left: -8px;
-}
-.isoCertsWrap .isoCertSlider .owl-controls .owl-nav .owl-next {
-  right: -8px;
-}
-.isoCertsWrap .isoCertSlider .owl-controls .owl-nav .owl-prev:hover,
-.isoCertsWrap .isoCertSlider .owl-controls .owl-nav .owl-next:hover {
-  color: #1f4444;
+  opacity: 0.82;
 }
 #isoCertModal .modal-dialog {
   width: 90%;
@@ -3046,12 +3041,17 @@ header .social_nav ul li:last-child {
   background: #fff;
 }
 @media (max-width: 767px) {
+  header .iso-header-row {
+    display: block;
+  }
   .isoCertsWrap {
-    max-width: 150px;
-    margin: 8px auto 4px;
+    min-height: 0;
+    margin: 10px 0 6px;
+    gap: 10px;
   }
   .isoCertsWrap .iso-cert-open img {
-    height: 78px;
+    width: 84px;
+    height: 84px;
   }
   #isoCertFrame {
     height: 60vh;

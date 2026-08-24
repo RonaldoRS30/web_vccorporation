@@ -47,21 +47,17 @@ $certs = array(
 $openLabel = $isEnglish ? 'Open certificate' : 'Ver certificado';
 $closeLabel = $isEnglish ? 'Close' : 'Cerrar';
 ?>
-<div class="partnersSlideO isoCertsWrap">
-    <div class="owl-carousel isoCertSlider">
-        <?php foreach ($certs as $cert) { ?>
-        <div class="item">
-            <a href="<?php echo htmlspecialchars($cert['pdf']); ?>"
-               class="iso-cert-open"
-               data-pdf="<?php echo htmlspecialchars($cert['pdf']); ?>"
-               data-title="<?php echo htmlspecialchars($cert['title']); ?>"
-               title="<?php echo htmlspecialchars($openLabel . ': ' . $cert['title']); ?>">
-                <img src="<?php echo htmlspecialchars($cert['img']); ?>"
-                     alt="<?php echo htmlspecialchars($cert['alt']); ?>">
-            </a>
-        </div>
-        <?php } ?>
-    </div>
+<div class="isoCertsWrap">
+    <?php foreach ($certs as $cert) { ?>
+    <a href="<?php echo htmlspecialchars($cert['pdf']); ?>"
+       class="iso-cert-open"
+       data-pdf="<?php echo htmlspecialchars($cert['pdf']); ?>"
+       data-title="<?php echo htmlspecialchars($cert['title']); ?>"
+       title="<?php echo htmlspecialchars($openLabel . ': ' . $cert['title']); ?>">
+        <img src="<?php echo htmlspecialchars($cert['img']); ?>"
+             alt="<?php echo htmlspecialchars($cert['alt']); ?>">
+    </a>
+    <?php } ?>
 </div>
 
 <div class="modal fade" id="isoCertModal" tabindex="-1" role="dialog" aria-labelledby="isoCertModalTitle">
@@ -92,21 +88,6 @@ $closeLabel = $isEnglish ? 'Close' : 'Cerrar';
             return;
         }
         var $ = jQuery;
-        var $slider = $('.isoCertSlider');
-        if ($slider.length && typeof $.fn.owlCarousel === 'function' && !$slider.hasClass('owl-loaded')) {
-            $slider.owlCarousel({
-                loop: true,
-                margin: 0,
-                nav: true,
-                items: 1,
-                dots: false,
-                autoplay: true,
-                autoplayTimeout: 3200,
-                autoplayHoverPause: true,
-                smartSpeed: 650,
-                navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>']
-            });
-        }
         if ($('#isoCertModal').length) {
             $('#isoCertModal').appendTo('body');
         }
