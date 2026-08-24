@@ -1,8 +1,13 @@
 <?php
 
+include_once dirname(__FILE__) . '/inc_asset.php';
+
 $page = basename($_SERVER['PHP_SELF'], ".php");
 
 ?>
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -101,7 +106,7 @@ if ($page == "industria") {
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
 <!--Construction Styles-->
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="<?php echo asset_v('css/style.css'); ?>">
 	
 <script type="text/javascript">
 function acceso_intranetIP () {

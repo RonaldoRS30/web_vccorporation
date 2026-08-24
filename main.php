@@ -528,7 +528,7 @@ Automation of Industrial Processes<span class="sign fa"></span>
     <script src="vendors/isotope/isotope-custom.js"></script>
     
     <!--Construction JS-->
-    <script src="js/construction.js"></script>
+    <script src="js/construction.js<?php echo '?v=' . @filemtime(dirname(__FILE__) . '/js/construction.js'); ?>"></script>
 </body>
 
 <!-- Mirrored from premiumlayers.com/demos/construction/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 17 Feb 2015 15:20:39 GMT -->

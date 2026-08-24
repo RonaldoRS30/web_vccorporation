@@ -575,7 +575,7 @@ Automatización de Procesos Industriales<span class="sign fa"></span>
     <script src="vendors/isotope/isotope-custom.js"></script>
     
     <!--Construction JS-->
-    <script src="js/construction.js"></script>
+    <script src="js/construction.js<?php echo '?v=' . @filemtime(dirname(__FILE__) . '/js/construction.js'); ?>"></script>
 	
 </body>
 

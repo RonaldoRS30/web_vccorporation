@@ -1,4 +1,5 @@
 <?php
+include_once dirname(__FILE__) . '/inc_asset.php';
 $page = basename(isset($_SERVER['PHP_SELF']) ? $_SERVER['PHP_SELF'] : '');
 $uri = str_replace('\\', '/', isset($_SERVER['PHP_SELF']) ? $_SERVER['PHP_SELF'] : '');
 $isEnDir = (strpos($uri, '/en/') !== false);
@@ -23,21 +24,21 @@ $lang = $isEnglish ? 'en' : 'es';
 $certs = array(
     array(
         'code' => '14001',
-        'img' => $prefix . 'images/certs/iso-14001.png',
+        'img' => asset_v('images/certs/iso-14001.png', $prefix),
         'pdf' => $prefix . 'pdf_files/certs/iso-14001-' . $lang . '.pdf',
         'alt' => 'ISO 14001 Certified',
         'title' => $isEnglish ? 'ISO 14001 Certificate' : 'Certificado ISO 14001'
     ),
     array(
         'code' => '45001',
-        'img' => $prefix . 'images/certs/iso-45001.png',
+        'img' => asset_v('images/certs/iso-45001.png', $prefix),
         'pdf' => $prefix . 'pdf_files/certs/iso-45001-' . $lang . '.pdf',
         'alt' => 'ISO 45001 Certified',
         'title' => $isEnglish ? 'ISO 45001 Certificate' : 'Certificado ISO 45001'
     ),
     array(
         'code' => '9001',
-        'img' => $prefix . 'images/certs/iso-9001.png',
+        'img' => asset_v('images/certs/iso-9001.png', $prefix),
         'pdf' => $prefix . 'pdf_files/certs/iso-9001-' . $lang . '.pdf',
         'alt' => 'ISO 9001 Certified',
         'title' => $isEnglish ? 'ISO 9001 Certificate' : 'Certificado ISO 9001'
