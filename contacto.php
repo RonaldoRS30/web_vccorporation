@@ -173,7 +173,7 @@ suaves y centro de control de motores CCMS</a></li>
                     </div> 
                     <div class="row m0">
                         <h3>Denuncias</h3>
-                        <p>Ante cualquier denuncia o sospecha relacionada con conductas de soborno, así como reclamos o quejas por parte de la comunidad, se deberá reportar al correo: <b>denuncias@vc-corporation.com</b>
+                        <p>Ante cualquier denuncia o sospecha relacionada con conductas delictivas de soborno, corrupción, éticos y similares, así como reclamos o quejas por parte de clientes y la comunidad, se deberá reportar al correo: <b>denuncias@vc-corporation.com</b>
 						</p>
                     </div>
 					
