@@ -229,6 +229,7 @@ suaves y centro de control de motores CCMS</a></li>
         </div>
     </div>
     <!-- FIN MODAL ALCANCE SIG -->
+    <?php include dirname(__FILE__) . '/modales_politicas_extra.php'; ?>
     
     
     
@@ -551,6 +552,14 @@ Automatización de Procesos Industriales<span class="sign fa"></span>
                     <button class="btn" data-toggle="modal" data-target="#modalAlcance" style="background-image: none; text-shadow: none; background-color:#316262; border: 1px solid #2a5454; color:#ffffff; border-radius: 4px; padding: 12px 25px; font-size: 15px; font-weight: 600; box-shadow: none; transition: all 0.3s ease; margin-bottom: 10px;" onmouseover="this.style.backgroundColor='#234a4a';" onmouseout="this.style.backgroundColor='#316262';">
                         <i class="fa fa-sitemap" style="margin-right:8px; font-size:18px;"></i> Ver Alcance del Sistema Integrado de Gestión (SIG)
                     </button>
+                    <div>
+                    <button class="btn" data-toggle="modal" data-target="#modalRespSocial" style="background-image: none; text-shadow: none; background-color:#316262; border: 1px solid #2a5454; color:#ffffff; border-radius: 4px; padding: 12px 25px; font-size: 15px; font-weight: 600; box-shadow: none; transition: all 0.3s ease; margin-bottom: 10px; margin-right: 15px;" onmouseover="this.style.backgroundColor='#234a4a';" onmouseout="this.style.backgroundColor='#316262';">
+                        <i class="fa fa-file-text-o" style="margin-right:8px; font-size:18px;"></i> Ver Política de Responsabilidad Social (RS)
+                    </button>
+                    <button class="btn" data-toggle="modal" data-target="#modalPrevDelitos" style="background-image: none; text-shadow: none; background-color:#316262; border: 1px solid #2a5454; color:#ffffff; border-radius: 4px; padding: 12px 25px; font-size: 15px; font-weight: 600; box-shadow: none; transition: all 0.3s ease; margin-bottom: 10px;" onmouseover="this.style.backgroundColor='#234a4a';" onmouseout="this.style.backgroundColor='#316262';">
+                        <i class="fa fa-file-text-o" style="margin-right:8px; font-size:18px;"></i> Ver Política de Prevención del Delito (PD)
+                    </button>
+                    </div>
                 </div>
             </div>
         </div>

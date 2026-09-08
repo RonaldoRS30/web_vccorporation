@@ -3025,16 +3025,19 @@ header .iso-certs-col {
 .isoCertsWrap .iso-cert-open:hover img {
   opacity: 0.82;
 }
-#isoCertModal .modal-dialog {
+#isoCertModal .modal-dialog,
+#pdfDocModal .modal-dialog {
   width: 90%;
   max-width: 980px;
   margin-top: 30px;
 }
-#isoCertModal .modal-title {
+#isoCertModal .modal-title,
+#pdfDocModal .modal-title {
   color: #fff;
   font-size: 18px;
 }
-#isoCertFrame {
+#isoCertFrame,
+#pdfDocFrame {
   width: 100%;
   height: 72vh;
   border: 0;
@@ -3053,7 +3056,8 @@ header .iso-certs-col {
     width: 84px;
     height: 84px;
   }
-  #isoCertFrame {
+  #isoCertFrame,
+  #pdfDocFrame {
     height: 60vh;
   }
 }

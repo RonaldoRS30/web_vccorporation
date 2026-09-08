@@ -192,6 +192,7 @@
         </div>
     </div>
     <!-- END IMS SCOPE MODAL -->
+    <?php include dirname(__FILE__) . '/modales_politicas_extra.php'; ?>
     
     
     <section id="nr_slider" class="row">
@@ -505,6 +506,14 @@ Automation of Industrial Processes<span class="sign fa"></span>
                     <button class="btn" data-toggle="modal" data-target="#modalAlcance" style="background-image: none; text-shadow: none; background-color:#316262; border: 1px solid #2a5454; color:#ffffff; border-radius: 4px; padding: 12px 25px; font-size: 15px; font-weight: 600; box-shadow: none; transition: all 0.3s ease; margin-bottom: 10px;" onmouseover="this.style.backgroundColor='#234a4a';" onmouseout="this.style.backgroundColor='#316262';">
                         <i class="fa fa-sitemap" style="margin-right:8px; font-size:18px;"></i> View Integrated Management System (IMS) Scope
                     </button>
+                    <div>
+                    <button class="btn" data-toggle="modal" data-target="#modalRespSocial" style="background-image: none; text-shadow: none; background-color:#316262; border: 1px solid #2a5454; color:#ffffff; border-radius: 4px; padding: 12px 25px; font-size: 15px; font-weight: 600; box-shadow: none; transition: all 0.3s ease; margin-bottom: 10px; margin-right: 15px;" onmouseover="this.style.backgroundColor='#234a4a';" onmouseout="this.style.backgroundColor='#316262';">
+                        <i class="fa fa-file-text-o" style="margin-right:8px; font-size:18px;"></i> View Social Responsibility Policy (RS)
+                    </button>
+                    <button class="btn" data-toggle="modal" data-target="#modalPrevDelitos" style="background-image: none; text-shadow: none; background-color:#316262; border: 1px solid #2a5454; color:#ffffff; border-radius: 4px; padding: 12px 25px; font-size: 15px; font-weight: 600; box-shadow: none; transition: all 0.3s ease; margin-bottom: 10px;" onmouseover="this.style.backgroundColor='#234a4a';" onmouseout="this.style.backgroundColor='#316262';">
+                        <i class="fa fa-file-text-o" style="margin-right:8px; font-size:18px;"></i> View Crime Prevention Policy (PD)
+                    </button>
+                    </div>
                 </div>
             </div>
         </div>
