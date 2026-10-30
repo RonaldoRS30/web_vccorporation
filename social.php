@@ -1,4 +1,4 @@
-<?php ?>
+﻿<?php ?>
 <!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7H69M4"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
@@ -20,7 +20,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <li><a href="https://www.facebook.com/vccorpsac" target="_blank"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="javascript:pcompleta('http://vc-corporation.com/webmail')" style="cursor:pointer;color:#FFFFFF" ><i class="fa fa-envelope"></i>&nbsp;Email</a></li>
                     <li><a style="cursor:pointer;color:#FFFFFF" href="javascript:acceso_intranetIP ()"><i class="fa fa-cog"></i>&nbsp;Intranet</a>  </li>   
-                    <li><a href="index.php"><img src="images/sp.png" WIDTH=18 HEIGHT=18 alt="lang_sp" title="Espa�ol" /></a></li>   
+                    <li><a href="https://sigecom-5.vc-corporation.com/" target="_blank" style="cursor:pointer;color:#FFFFFF"><i class="fa fa-desktop"></i>&nbsp;Sigecom 5.0</a></li>
+                    <li><a href="https://sig.vc-corporation.com/" target="_blank" style="cursor:pointer;color:#FFFFFF"><i class="fa fa-shield"></i>&nbsp;SIG</a></li>
+                    <li><a href="index.php"><img src="images/sp.png" WIDTH=18 HEIGHT=18 alt="lang_sp" title="Español" /></a></li>   
                     <li><a href="main.php"><img src="images/uk.png" WIDTH=18 HEIGHT=18 alt="lang_uk" title="English" /></a></li>       
                 </ul>
             </div>
